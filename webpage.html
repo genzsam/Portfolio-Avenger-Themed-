@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage - Avengers Theme</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            overflow-x: hidden;
+        }
+        .header {
+            background-color: #1f2833;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #66fcf1;
+        }
+        .header img {
+            max-width: 150px;
+            margin-top: 10px;
+        }
+        .navbar {
+            background-color: #1f2833;
+        }
+        .navbar-nav .nav-link {
+            color: #c5c6c7;
+            transition: color 0.3s ease-in-out;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #66fcf1;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            background-color: #1f2833;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+            animation: slideIn 2s ease-in-out;
+        }
+        .section h2 {
+            color: #66fcf1;
+            font-size: 2em;
+            border-bottom: 2px solid #66fcf1;
+            padding-bottom: 10px;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1f2833;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .footer p {
+            margin: 0;
+        }
+        a {
+            color: #45a29e;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #66fcf1;
+        }
+        .section:hover {
+            background-color: #0b0c10;
+            transform: scale(1.05);
+        }
+        .contact p i {
+            margin-right: 10px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        .progress {
+            height: 20px;
+            background-color: #0b0c10;
+            border-radius: 10px;
+        }
+        .progress-bar {
+            background-color: #66fcf1;
+        }
+        .add-project-btn, .update-project-btn {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Avengers Themed Page</h1>
+        <img src="F:\Downloads\download (82).jpeg" alt="download (82)" class="avengers-logo">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Swanandi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#qualifications">Qualifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container content">
+        <div class="section about-me" id="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I'm Swanandi Deshmukh, a 17-year-old computer engineering student with a passion for technology, science, and communication. I love exploring new technologies and have created a couple of websites: Akhnadabharat, which focuses on science, technology, current news, mental health, yoga, affirmations, and India's rich history, and Quantum Query, an EdTech platform for learning coding and AI. I'm excited to share my journey and projects with you!</p>
+        </div>
+        <div class="section qualifications" id="qualifications">
+            <h2>Qualifications</h2>
+            <p>Currently pursuing a Computer Science Diploma</p>
+            <p>Intermediate: Passed 3rd semester with 84.57%</p>
+            <p>High School: Abhinav English School 94.40%</p>
+        </div>
+        <div class="section experience" id="experience">
+            <h2>Real-World Experience</h2>
+            <p>1st Internship at Mount Everest</p>
+            <p>2nd Internship at VNIT Nagpur Axis 2024 as Social Media Marketing</p>
+            <p>Successfully completed The Social Media marketing Internship as a College Ambassador at Techfest IIT Bombay with a bronze medal</p>
+            <p>Indigo Squad Member at Mood Indigo IIT Bombay</p>
+        </div>
+        <div class="section projects" id="projects">
+            <h2>Projects</h2>
+            <p>Built a website called Akhnadabharat, a blogging website dedicated to posts on science, technology, current news, mental health, yoga, affirmations, and the rich history of India. It aims to provide insightful and diverse content to educate and inspire readers.</p>
+            <p>Built an educational platform called Quantum Query, which serves as a guide to learning computer languages.</p>
+            <p>Developed a voice assistant with Python known as 'Madhav'.</p>
+            <p>Created a Netflix template-based resume: <a href="https://genzsam.github.io/Resumeflix/login2.html" target="_blank">View Resume</a></p>
+        </div>
+        <div class="section project-tracking" id="project-tracking">
+            <h2>Project Tracking</h2>
+            <form id="add-project-form">
+                <div class="form-group">
+                    <label for="project-name">Project Name</label>
+                    <input type="text" class="form-control" id="project-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="project-progress">Progress (%)</label>
+                    <input type="number" class="form-control" id="project-progress" required min="0" max="100">
+                </div>
+                <button type="submit" class="btn btn-primary add-project-btn">Add Project</button>
+            </form>
+            <div id="projects-list">
+                <div class="project">
+                    <h3>Project 1: Akhnadabharat</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                    <button class="btn btn-secondary update-project-btn">Update</button>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Quantum Query</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <button class="btn btn-secondary update-project-btn">Update</button>
+                </div>
+            </div>
+        </div>
+        <div class="section contact" id="contact">
+            <h2>Contact Information</h2>
+            <p><i class="fas fa-user"></i> Name: Swanandi Deshmukh</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:swanandi1802@gmail.com">swanandi1802@gmail.com</a></p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/swanandideshmukh" target="_blank">swanandideshmukh</a></p>
+            <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/genzsam" target="_blank">genzsam</a></p>
+            <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/hi.swanandi._here" target="_blank">hi.swanandi._here</a>, <a href="https://www.instagram.com/marvel_.code" target="_blank">marvel_.code</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 My Avengers Themed Page</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('add-project-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const projectName = document.getElementById('project-name').value;
+            const projectProgress = document.getElementById('project-progress').value;
+
+            const projectsList = document.getElementById('projects-list');
+
+            const newProject = document.createElement('div');
+            newProject.className = 'project';
+            newProject.innerHTML = `
+                <h3>${projectName}</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: ${projectProgress}%;" aria-valuenow="${projectProgress}" aria-valuemin="0" aria-valuemax="100">${projectProgress}%</div>
+                </div>
+                <button class="btn btn-secondary update-project-btn">Update</button>
+            `;
+            projectsList.appendChild(newProject);
+
+            document.getElementById('add-project-form').reset();
+
+            attachUpdateEvent(newProject.querySelector('.update-project-btn'));
+        });
+
+        function attachUpdateEvent(button) {
+            button.addEventListener('click', function() {
+                const projectDiv = button.parentElement;
+                const projectName = projectDiv.querySelector('h3').textContent;
+                const newProgress = prompt(`Update progress for ${projectName}`, projectDiv.querySelector('.progress-bar').getAttribute('aria-valuenow'));
+                
+                if (newProgress !== null) {
+                    const progressBar = projectDiv.querySelector('.progress-bar');
+                    progressBar.style.width = `${newProgress}%`;
+                    progressBar.setAttribute('aria-valuenow', newProgress);
+                    progressBar.textContent = `${newProgress}%`;
+                }
+            });
+        }
+
+        document.querySelectorAll('.update-project-btn').forEach(button => attachUpdateEvent(button));
+    </script>
+</body>
+</html>
